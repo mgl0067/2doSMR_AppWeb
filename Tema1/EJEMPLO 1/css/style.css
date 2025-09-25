@@ -1,0 +1,23 @@
+p {
+    color: red;
+    font-size: 30px;
+}
+
+
+h1{
+    color: blue;
+}
+
+
+.estiloParrafo{
+color: blueviolet;
+}
+
+
+.estilocapa {
+    border: 2px outset blue;
+}
+
+.estiloformulario {
+    border: 2px outset yellow;
+}
