@@ -1,0 +1,21 @@
+.alinear-derecha {
+    text-align: right;
+}
+
+.imagenderecha {
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 197, 246)
+}
+
+.estilorelleno {
+    background-color: rgb(197, 197, 246);
+}
+
+.imgizq {
+    float: left;
+}
+
+.noimg {
+    clear: both;
+}
