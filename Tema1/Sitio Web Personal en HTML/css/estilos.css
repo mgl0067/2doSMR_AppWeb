@@ -1,3 +1,21 @@
+/* GENERAL */
+
+a {
+    color: white;
+}
+
+.menudenavegacion {
+    background-image: url(../img/fondomenudenavegacion3.jpg);
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
 /* Currículum Vitae */
 
 .alinear-derecha {
@@ -39,16 +57,13 @@
      background-color: rgb(49, 214, 255);
 }
 
-.fieldset1 {
-   border-width: 5px;
-   border-color: rgb(49, 214, 255);
-    
-}
 
-/* Formulario */
+/* Formulario ------------------------------------------------------------------------------------------------------------------------*/
 
 .fieldsetformulario {
     background-image: url(../img/fondoformulario.jpg);
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
 }
 
 .fondoformulario {
@@ -86,4 +101,94 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(13, 136, 167);
     color: white;
+}
+
+.fieldsetf {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+
+
+/* HORARIO --------------------------------------------------------------------------------------------*/
+
+.fondoh {
+    background-image: url(../img/colorhorario.jpg);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.izq {
+    text-align: left;
+}
+
+.der {
+    text-align: right;
+}
+
+/*---------------------- ASIGNATURAS */
+
+.sor {           /* sistemas operativos en red*/
+background-color: rgb(186, 225, 255);
+color: rgb(50, 50, 50);
+}
+
+.ipe {
+    background-color: rgb(255, 223, 186);
+    color: rgb(80, 40, 100);
+}
+
+.eng {
+    background-color: rgb(173, 216, 230);
+    color: rgb(50, 50, 50);
+}
+
+.fundamentos {
+    background-color: rgb(186, 255, 201);
+    color: rgb(80, 40, 100);
+}
+
+.appweb {
+    background-color: rgb(255, 186, 201);
+    color: rgb(50, 50, 50);
+}
+
+.serviciosred {
+    background-color: rgb(214, 186, 255);
+    color: rgb(80, 40, 100);
+}
+
+.seguridad {
+    background-color: rgb(255, 186, 186);
+    color:  rgb(50, 50, 50);
+}
+
+.proyecto {
+    background-color: rgb(255, 246, 186);
+    color: rgb(80, 40, 100);
+}
+
+.descanso {
+    background-color: rgb(240, 240, 240);
+    color: rgb(47, 47, 189);
+}
+
+.horas{
+    background-color: rgb(199, 150, 206);
+    font-weight: bold;
+}
+
+.dias{
+    background-color: rgb(200, 220, 255);
+    font-weight: bold;
+}
+
+
+.horaesquina{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
