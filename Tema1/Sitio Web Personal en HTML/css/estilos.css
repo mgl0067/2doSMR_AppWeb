@@ -8,15 +8,23 @@ a {
     background-image: url(../img/fondomenudenavegacion3.jpg);
     border-width: 5px;
     border-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
+.hrcorto {
+    width: 300px;
+    margin-left: 0px;
+}
 
 /* Currículum Vitae */
+
+.imgder {
+    float: right;
+}
 
 .alinear-derecha {
     text-align: right;
@@ -46,7 +54,7 @@ a {
 }
 
 .fondo2 {
-    background-image: url(../img/cv2.jpg);
+    background-image: url(../img/cv3.jpg);
     background-position: right right right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,6 +134,10 @@ a {
 
 .der {
     text-align: right;
+}
+
+.lgrande {
+    font-size: xx-large;
 }
 
 /*---------------------- ASIGNATURAS */
