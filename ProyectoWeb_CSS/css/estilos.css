@@ -1,0 +1,283 @@
+/* GENERAL */
+
+.menudenavegacion {
+    background-image: url(../img/fondomenudenavegacion3.jpg);
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hrcorto {
+    width: 300px;
+    margin-left: 0px;
+}
+
+.boton{
+    background-color: rgba(135, 59, 59, 0.905);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.boton:hover {
+    color: orange;
+    background-color: beige;
+    transform: scale(2);
+}
+
+.enlaces{
+    margin-top: 20px;
+}
+
+/* MENÚ DE NAVEGACIÓN --------------------------------- */
+
+.amdn {
+    text-decoration: none;
+    color: white;
+}
+
+.amdn:visited {
+    color:  rgb(102, 255, 204)
+}
+
+.amdn:active {
+    color: rgb(150, 140, 255)
+}
+
+.amdn:link {
+    color: rgb(92, 172, 255)
+}
+
+.mdn {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pmdv {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: beige;
+}
+
+.navmdn {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 20px;
+    margin-bottom: 130px;
+    background-color: rgb(33, 42, 62);
+}
+
+.limdn {
+    display: inline-block;
+    padding: 7px 7px;
+    transition: background-color 0,9s, transform 0.5s;
+    border-top: #008855 0.3em solid;
+}
+
+.limdn:hover {
+    background-color: #008855;
+    color: beige;
+    transform: scale(1.4);
+}
+
+a:visited {
+    color: crimson;
+}
+
+
+
+/* Currículum Vitae-------------------------------------- */
+
+.imgder {
+    float: right;
+}
+
+.alinear-derecha {
+    text-align: right;
+}
+
+.imagenderecha {
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 197, 246);
+}
+
+.estilorelleno {
+    background-color: rgb(197, 197, 246);
+}
+
+.imgizq {
+    float: left;
+}
+
+.noimg {
+    clear: both;
+}
+
+
+.fondo {
+    background-image: url(../img/cv.jpg);
+}
+
+.fondo2 {
+    background-image: url(../img/cv3.jpg);
+    background-position: right right right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hr1 {
+    height: 5px;
+     background-color: rgb(49, 214, 255);
+}
+
+
+/* Formulario ------------------------------------------------------------------------------------------------------------------------*/
+
+.fieldsetformulario {
+    background-image: url(../img/fondoformulario.jpg);
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+}
+
+.fondoformulario {
+    background-image: url(../img/fondoformulario2.jpg);
+}
+
+.letraformulario {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.letrah1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.listagrande {
+    width: 100px;
+    height: 25px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formgrande {
+    width: auto;
+    height: 20px;
+    font-size: medium;
+}
+
+.tamañoboton {
+    width: auto;
+    height: auto;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(13, 136, 167);
+    color: white;
+}
+
+.fieldsetf {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+
+
+/* HORARIO --------------------------------------------------------------------------------------------*/
+
+.fondoh {
+    background-image: url(../img/colorhorario.jpg);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.izq {
+    text-align: left;
+}
+
+.der {
+    text-align: right;
+}
+
+.lgrande {
+    font-size: xx-large;
+}
+
+/*---------------------- ASIGNATURAS */
+
+.sor {           /* sistemas operativos en red*/
+background-color: rgb(186, 225, 255);
+color: rgb(50, 50, 50);
+}
+
+.ipe {
+    background-color: rgb(255, 223, 186);
+    color: rgb(80, 40, 100);
+}
+
+.eng {
+    background-color: rgb(173, 216, 230);
+    color: rgb(50, 50, 50);
+}
+
+.fundamentos {
+    background-color: rgb(186, 255, 201);
+    color: rgb(80, 40, 100);
+}
+
+.appweb {
+    background-color: rgb(255, 186, 201);
+    color: rgb(50, 50, 50);
+}
+
+.serviciosred {
+    background-color: rgb(214, 186, 255);
+    color: rgb(80, 40, 100);
+}
+
+.seguridad {
+    background-color: rgb(255, 186, 186);
+    color:  rgb(50, 50, 50);
+}
+
+.proyecto {
+    background-color: rgb(255, 246, 186);
+    color: rgb(80, 40, 100);
+}
+
+.descanso {
+    background-color: rgb(240, 240, 240);
+    color: rgb(47, 47, 189);
+}
+
+.horas{
+    background-color: rgb(199, 150, 206);
+    font-weight: bold;
+}
+
+.dias{
+    background-color: rgb(200, 220, 255);
+    font-weight: bold;
+}
+
+
+.horaesquina{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
