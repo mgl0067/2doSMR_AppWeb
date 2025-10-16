@@ -1,5 +1,16 @@
 /* GENERAL */
 
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+
 .menudenavegacion {
     background-image: url(../img/fondomenudenavegacion3.jpg);
     border-width: 5px;
@@ -37,7 +48,7 @@
     margin-top: 20px;
 }
 
-/* MENÚ DE NAVEGACIÓN --------------------------------- */
+/* MENÚ DE NAVEGACIÓN y PIE DE PÁGINA--------------------------------- */
 
 .amdn {
     text-decoration: none;
@@ -45,15 +56,15 @@
 }
 
 .amdn:visited {
-    color:  rgb(102, 255, 204)
+    color:  rgb(102, 255, 204);
 }
 
 .amdn:active {
-    color: rgb(150, 140, 255)
+    color: rgb(150, 140, 255);
 }
 
 .amdn:link {
-    color: rgb(92, 172, 255)
+    color: rgb(92, 172, 255);
 }
 
 .mdn {
@@ -95,7 +106,12 @@ a:visited {
     color: crimson;
 }
 
-
+.pie {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Currículum Vitae-------------------------------------- */
 
@@ -117,8 +133,9 @@ a:visited {
     background-color: rgb(197, 197, 246);
 }
 
-.imgizq {
-    float: left;
+.imgredonda {
+    border-radius: 50%;
+    background-color: aliceblue;
 }
 
 .noimg {
@@ -131,17 +148,68 @@ a:visited {
 }
 
 .fondo2 {
-    background-image: url(../img/cv3.jpg);
+    background-image: url(../img/fondocv.jpg);
     background-position: right right right;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.hr1 {
-    height: 5px;
-     background-color: rgb(49, 214, 255);
+#cabeceracv {
+    color: beige;
+    background-image: linear-gradient(45deg, #f4b26c, #C87A8A);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
+#textocabecera {
+    display: block;
+}
+
+.contacto {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 2px 4px 8px #031118;
+}
+
+.textocontacto {
+    color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+#tarjetacontacto {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.8s, background-color 0.9s;
+}
+
+#tarjetacontacto:hover {
+    background-color: aquamarine;
+    transform: rotate(25deg);
+}
+
+.contenedorcv {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 15px 20px;
+    padding: 5px 10px 15px;
+    box-shadow: 2px 4px 8px;
+}
+
+.contenedorjunto {
+    display: flex;
+    justify-content: center;
+}
 
 /* Formulario ------------------------------------------------------------------------------------------------------------------------*/
 
