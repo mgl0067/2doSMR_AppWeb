@@ -270,7 +270,7 @@ a:visited {
     background-position: center center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: fit-content;
 }
 
 .izq {
@@ -285,61 +285,165 @@ a:visited {
     font-size: xx-large;
 }
 
+.pt {
+    margin-bottom: 20px;
+}
+
 /*---------------------- ASIGNATURAS */
 
 .sor {           /* sistemas operativos en red*/
 background-color: rgb(186, 225, 255);
 color: rgb(50, 50, 50);
+border: 2px solid #007BFF;
+border-radius: 10px;
+padding: 20px;
+margin: 10px;
+font-size: 25px;
+transition: transform 0.8s, background-color 0.9s;
+}
+
+.sor:hover {
+    background-color: #82d1a0;
+    transform: rotate(25deg);
 }
 
 .ipe {
     background-color: rgb(255, 223, 186);
     color: rgb(80, 40, 100);
+    border: 2px solid #e6ad59;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    transition: transform 0.8s, background-color 0.9s;
+}
+
+.ipe:hover {
+    background-color: #dd82c9;
+    transform: rotate(-25deg);
 }
 
 .eng {
     background-color: rgb(173, 216, 230);
     color: rgb(50, 50, 50);
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.eng:hover {
+    color: rgb(136, 231, 27);
+    background-color: rgb(217, 230, 36);
+    transform: scale(1,2);
 }
 
 .fundamentos {
     background-color: rgb(186, 255, 201);
     color: rgb(80, 40, 100);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.fundamentos:hover {
+    color: rgb(16, 182, 233);
+    background-color: rgb(152, 36, 230);
+    transform: scale(1.5);
 }
 
 .appweb {
     background-color: rgb(255, 186, 201);
     color: rgb(50, 50, 50);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.appweb:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 36, 117);
+    transform: scale(-1.5);
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
 }
 
 .serviciosred {
     background-color: rgb(214, 186, 255);
     color: rgb(80, 40, 100);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.serviciosred:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 88, 230);
+    transform: rotate(720deg);
 }
 
 .seguridad {
     background-color: rgb(255, 186, 186);
     color:  rgb(50, 50, 50);
+    border: 2px solid #c172f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    transition: transform 0.8s, background-color 0.9s;
+}
+
+.seguridad:hover {
+    background-color: #dd82c9;
+    transform: rotate(-360deg);
 }
 
 .proyecto {
     background-color: rgb(255, 246, 186);
     color: rgb(80, 40, 100);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.proyecto:hover {
+    background-color: #dd82c9;
+    transform: scaleX(2);
 }
 
 .descanso {
     background-color: rgb(240, 240, 240);
     color: rgb(47, 47, 189);
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    transition: background-color 0.9s, transform 0.5s;
+}
+
+.descanso:hover {
+    background-color: #dd82c9;
+    transform: scale(2)
 }
 
 .horas{
     background-color: rgb(199, 150, 206);
     font-weight: bold;
+    font-size: 25px;
 }
 
 .dias{
     background-color: rgb(200, 220, 255);
     font-weight: bold;
+    font-size: 25px;
 }
 
 
@@ -348,4 +452,5 @@ color: rgb(50, 50, 50);
     padding: 10px;
     font-weight: bold;
     font-size: x-large;
+    font-size: 25px;
 }
